@@ -31,5 +31,5 @@ gem 'sqlite3'
 # end
 
 gem 'jquery-rails'
-gem 'rixi'
+gem 'rixi', :git => 'git@github.com:ainame/rixi.git'
 gem 'twitter'
