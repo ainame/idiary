@@ -29,3 +29,7 @@ gem 'sqlite3'
 # group :development, :test do
 #   gem 'webrat'
 # end
+
+gem 'jquery-rails'
+gem 'rixi'
+gem 'twitter'
