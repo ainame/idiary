@@ -1,4 +1,4 @@
-class TwitterController < ActionController::Base
+﻿class TwitterController < ActionController::Base
 
   define test
   end
