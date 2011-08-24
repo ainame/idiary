@@ -5,6 +5,12 @@ Profile
   <%= session[:uid]%>
   <img src="<%=session[:thumbnailUrl]%>"/>
   <a href="/logout">ログアウト</a>
+<form method="post" action="/submit">
+タイトル:<input type="text" name="title" size="40"/></br>
+本文:</br>
+<textarea name="main" rows="50" cols="50"></textarea></br>
+<input type="submit" value="送信" /></br>
+</form>
 <% else %>
   <a href="/login">ログイン</a>
 <% end %>
