@@ -33,7 +33,7 @@ class DiariesController < ApplicationController
                                :consumer_secret => "6bb150b0961620ea015d01d7020367e959008e7f",
                                :redirect_uri => 'http://0.0.0.0:3000/callback',
                                :scope => scope
-                              ).get_token
+                              )
   end
 
   def login
@@ -43,12 +43,13 @@ class DiariesController < ApplicationController
   def callback
     session[:login] = true
     mixi = DiariesController.rixi.get_token(params[:code])
-    response = mixi.people "@me", "@self"
+    response = mixi.people "@me", "@self"   
     session[:screen_name]  = response["entry"]["diplayName"]
     session[:uid]          = response["entry"]["id"]    
     session[:thumbnailUrl] = response["entry"]["thumbnailUrl"]    
     session[:access_token] = mixi.token.token
-    session[:refresh_token] = mixi.token.refreash_token
+    session[:refresh_token] = mixi.token.refresh_token
+
     redirect_to root_path
   end
 
@@ -60,10 +61,9 @@ class DiariesController < ApplicationController
   # GET /diaries
   # GET /diaries.xml
   def index
-    if session[:login]
-      pp DiariesController.rixi 
-      @photos = DiariesController.rixi.photos_in_album "@me", "@default"    
-      pp @photos
+    if session[:login]      
+      mixi = DiariesController.rixi.set_token(session[:access_token],session[:refresh_token]) 
+      @photos = mixi.photos_in_album "@me", "@default"
     end
     # @diaries = Diary.all
     respond_to do |format|
