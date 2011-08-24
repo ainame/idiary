@@ -1,8 +1,13 @@
 ﻿
 <table border="1">
-<% line.each do |tweet| %>
+<% @line.each do |tweet| %>
   <tr>
     <td><%= tweet.user.description %></td>
+    <td>
+      <% form_tag :action => "test" %>
+      <%= submit_tag "追加" %>
+      </form>
+    </td>
   </tr>
 <% end %>  
 </table>
