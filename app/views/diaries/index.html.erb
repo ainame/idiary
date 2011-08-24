@@ -1,41 +1,13 @@
-<h1>Listing diaries</h1>
+Profile
 
-<table>
-  <tr>
-<<<<<<< HEAD
-=======
-    <th>Screen name</th>
->>>>>>> 1b5139782cfe2e33304924a22a480a77438b51de
-    <th>User</th>
-    <th>Title</th>
-    <th>Body</th>
-    <th>Photo url 1</th>
-    <th>Photo url 2</th>
-    <th>Photo url 3</th>
-    <th></th>
-    <th></th>
-    <th></th>
-  </tr>
-
-<% @diaries.each do |diary| %>
-  <tr>
-<<<<<<< HEAD
-=======
-    <td><%= diary.screen_name %></td>
->>>>>>> 1b5139782cfe2e33304924a22a480a77438b51de
-    <td><%= diary.user_id %></td>
-    <td><%= diary.title %></td>
-    <td><%= diary.body %></td>
-    <td><%= diary.photo_url_1 %></td>
-    <td><%= diary.photo_url_2 %></td>
-    <td><%= diary.photo_url_3 %></td>
-    <td><%= link_to 'Show', diary %></td>
-    <td><%= link_to 'Edit', edit_diary_path(diary) %></td>
-    <td><%= link_to 'Destroy', diary, :confirm => 'Are you sure?', :method => :delete %></td>
-  </tr>
+<% if session[:login]%>
+  <%= session[:screen_name] %>
+  <%= session[:uid]%>
+  <img src="<%=session[:thumbnailUrl]%>"/>
+<% else %>
+  <a href="/login">ログイン</a>
 <% end %>
-</table>
 
-<br />
 
-<%= link_to 'New Diary', new_diary_path %>
+
+
