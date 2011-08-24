@@ -1,4 +1,4 @@
-<p id="notice"><%= notice %></p>
+f<p id="notice"><%= notice %></p>
 
 <p>
   <b>Screen name:</b>

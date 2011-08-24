@@ -1,8 +1,8 @@
 TestIdiary::Application.routes.draw do
+  root :to => "diaries#index"
+  get "/login" => "diaries#login"
+  get "/callback" => "diaries#callback"
   resources :users
-
-  resources :diaries
-
   # The priority is based upon order of creation:
   # first created -> highest priority.
   resources :diaries
