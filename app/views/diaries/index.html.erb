@@ -4,8 +4,10 @@ Profile
   <%= session[:screen_name] %>
   <%= session[:uid]%>
   <img src="<%=session[:thumbnailUrl]%>"/>
+  <a href="/logout">ログアウト</a>
 <% else %>
   <a href="/login">ログイン</a>
 <% end %>
+
 
 

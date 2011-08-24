@@ -1703,3 +1703,686 @@ NoMethodError (undefined method `expired?' for nil:NilClass):
 Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
 Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.1ms)
 Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.1ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from service at /Users/namai/.rvm/rubies/ruby-1.9.2-p180/lib/ruby/1.9.1/webrick/httpserver.rb:111)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-24 16:03:42 +0900
+
+SyntaxError (/Users/namai/workspace/web/hackathon/idiary_test/app/controllers/diaries_controller.rb:46: syntax error, unexpected tSTRING_BEG, expecting keyword_end
+    pp response = DiariesController.rixi.people "@me", "@self"
+                                                 ^
+/Users/namai/workspace/web/hackathon/idiary_test/app/controllers/diaries_controller.rb:46: syntax error, unexpected ',', expecting keyword_end
+    pp response = DiariesController.rixi.people "@me", "@self"
+                                                      ^):
+  
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (9.1ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-24 16:04:42 +0900
+
+SyntaxError (/Users/namai/workspace/web/hackathon/idiary_test/app/controllers/diaries_controller.rb:46: syntax error, unexpected tSTRING_BEG, expecting keyword_end
+    pp response = DiariesController.rixi.people "@me", "@self"
+                                                 ^
+/Users/namai/workspace/web/hackathon/idiary_test/app/controllers/diaries_controller.rb:46: syntax error, unexpected ',', expecting keyword_end
+    pp response = DiariesController.rixi.people "@me", "@self"
+                                                      ^):
+  
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-24 16:04:45 +0900
+
+SyntaxError (/Users/namai/workspace/web/hackathon/idiary_test/app/controllers/diaries_controller.rb:46: syntax error, unexpected tSTRING_BEG, expecting keyword_end
+    pp response = DiariesController.rixi.people "@me", "@self"
+                                                 ^
+/Users/namai/workspace/web/hackathon/idiary_test/app/controllers/diaries_controller.rb:46: syntax error, unexpected ',', expecting keyword_end
+    pp response = DiariesController.rixi.people "@me", "@self"
+                                                      ^):
+  
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.5ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from service at /Users/namai/.rvm/rubies/ruby-1.9.2-p180/lib/ruby/1.9.1/webrick/httpserver.rb:111)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-24 16:04:55 +0900
+
+SyntaxError (/Users/namai/workspace/web/hackathon/idiary_test/app/controllers/diaries_controller.rb:46: syntax error, unexpected tSTRING_BEG, expecting keyword_end
+    pp response = DiariesController.rixi.people "@me", "@self"
+                                                 ^
+/Users/namai/workspace/web/hackathon/idiary_test/app/controllers/diaries_controller.rb:46: syntax error, unexpected ',', expecting keyword_end
+    pp response = DiariesController.rixi.people "@me", "@self"
+                                                      ^):
+  
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.0ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-24 16:05:12 +0900
+
+SyntaxError (/Users/namai/workspace/web/hackathon/idiary_test/app/controllers/diaries_controller.rb:46: syntax error, unexpected tSTRING_BEG, expecting keyword_end
+    pp response = DiariesController.rixi.people "@me", "@self"
+                                                 ^
+/Users/namai/workspace/web/hackathon/idiary_test/app/controllers/diaries_controller.rb:46: syntax error, unexpected ',', expecting keyword_end
+    pp response = DiariesController.rixi.people "@me", "@self"
+                                                      ^):
+  
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-24 16:05:13 +0900
+
+SyntaxError (/Users/namai/workspace/web/hackathon/idiary_test/app/controllers/diaries_controller.rb:46: syntax error, unexpected tSTRING_BEG, expecting keyword_end
+    pp response = DiariesController.rixi.people "@me", "@self"
+                                                 ^
+/Users/namai/workspace/web/hackathon/idiary_test/app/controllers/diaries_controller.rb:46: syntax error, unexpected ',', expecting keyword_end
+    pp response = DiariesController.rixi.people "@me", "@self"
+                                                      ^):
+  
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.8ms)
+
+
+Started GET "/lo" for 127.0.0.1 at 2011-08-24 16:05:26 +0900
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from service at /Users/namai/.rvm/rubies/ruby-1.9.2-p180/lib/ruby/1.9.1/webrick/httpserver.rb:111)
+
+ActionController::RoutingError (No route matches "/lo"):
+  
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/log" for 127.0.0.1 at 2011-08-24 16:05:27 +0900
+
+ActionController::RoutingError (No route matches "/log"):
+  
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/l" for 127.0.0.1 at 2011-08-24 16:05:27 +0900
+
+ActionController::RoutingError (No route matches "/l"):
+  
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/logout" for 127.0.0.1 at 2011-08-24 16:05:27 +0900
+
+ActionController::RoutingError (No route matches "/logout"):
+  
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/logout" for 127.0.0.1 at 2011-08-24 16:05:29 +0900
+
+ActionController::RoutingError (No route matches "/logout"):
+  
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/logout" for 127.0.0.1 at 2011-08-24 16:05:49 +0900
+
+SyntaxError (/Users/namai/workspace/web/hackathon/idiary_test/app/controllers/diaries_controller.rb:46: syntax error, unexpected tSTRING_BEG, expecting keyword_end
+    pp response = DiariesController.rixi.people "@me", "@self"
+                                                 ^
+/Users/namai/workspace/web/hackathon/idiary_test/app/controllers/diaries_controller.rb:46: syntax error, unexpected ',', expecting keyword_end
+    pp response = DiariesController.rixi.people "@me", "@self"
+                                                      ^):
+  
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.1ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.2ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from service at /Users/namai/.rvm/rubies/ruby-1.9.2-p180/lib/ruby/1.9.1/webrick/httpserver.rb:111)
+
+
+Started GET "/logout" for 127.0.0.1 at 2011-08-24 16:05:55 +0900
+
+SyntaxError (/Users/namai/workspace/web/hackathon/idiary_test/app/controllers/diaries_controller.rb:46: syntax error, unexpected tSTRING_BEG, expecting keyword_end
+    pp response = DiariesController.rixi.people "@me", "@self"
+                                                 ^
+/Users/namai/workspace/web/hackathon/idiary_test/app/controllers/diaries_controller.rb:46: syntax error, unexpected ',', expecting keyword_end
+    pp response = DiariesController.rixi.people "@me", "@self"
+                                                      ^):
+  
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.5ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.9ms)
+
+
+Started GET "/l" for 127.0.0.1 at 2011-08-24 16:05:59 +0900
+
+ActionController::RoutingError (No route matches "/l"):
+  
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-24 16:05:59 +0900
+
+SyntaxError (/Users/namai/workspace/web/hackathon/idiary_test/app/controllers/diaries_controller.rb:46: syntax error, unexpected tSTRING_BEG, expecting keyword_end
+    pp response = DiariesController.rixi.people "@me", "@self"
+                                                 ^
+/Users/namai/workspace/web/hackathon/idiary_test/app/controllers/diaries_controller.rb:46: syntax error, unexpected ',', expecting keyword_end
+    pp response = DiariesController.rixi.people "@me", "@self"
+                                                      ^):
+  
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.1ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-24 16:06:01 +0900
+
+SyntaxError (/Users/namai/workspace/web/hackathon/idiary_test/app/controllers/diaries_controller.rb:46: syntax error, unexpected tSTRING_BEG, expecting keyword_end
+    pp response = DiariesController.rixi.people "@me", "@self"
+                                                 ^
+/Users/namai/workspace/web/hackathon/idiary_test/app/controllers/diaries_controller.rb:46: syntax error, unexpected ',', expecting keyword_end
+    pp response = DiariesController.rixi.people "@me", "@self"
+                                                      ^):
+  
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-24 16:06:19 +0900
+
+SyntaxError (/Users/namai/workspace/web/hackathon/idiary_test/app/controllers/diaries_controller.rb:46: syntax error, unexpected tSTRING_BEG, expecting keyword_end
+    pp response = DiariesController.rixi.people "@me", "@self"
+                                                 ^
+/Users/namai/workspace/web/hackathon/idiary_test/app/controllers/diaries_controller.rb:46: syntax error, unexpected ',', expecting keyword_end
+    pp response = DiariesController.rixi.people "@me", "@self"
+                                                      ^):
+  
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-24 16:06:20 +0900
+
+SyntaxError (/Users/namai/workspace/web/hackathon/idiary_test/app/controllers/diaries_controller.rb:46: syntax error, unexpected tSTRING_BEG, expecting keyword_end
+    pp response = DiariesController.rixi.people "@me", "@self"
+                                                 ^
+/Users/namai/workspace/web/hackathon/idiary_test/app/controllers/diaries_controller.rb:46: syntax error, unexpected ',', expecting keyword_end
+    pp response = DiariesController.rixi.people "@me", "@self"
+                                                      ^):
+  
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.3ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from service at /Users/namai/.rvm/rubies/ruby-1.9.2-p180/lib/ruby/1.9.1/webrick/httpserver.rb:111)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-24 16:06:26 +0900
+
+SyntaxError (/Users/namai/workspace/web/hackathon/idiary_test/app/controllers/diaries_controller.rb:46: syntax error, unexpected tSTRING_BEG, expecting keyword_end
+    pp response = DiariesController.rixi.people "@me", "@self"
+                                                 ^
+/Users/namai/workspace/web/hackathon/idiary_test/app/controllers/diaries_controller.rb:46: syntax error, unexpected ',', expecting keyword_end
+    pp response = DiariesController.rixi.people "@me", "@self"
+                                                      ^):
+  
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.1ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.6ms)
+
+
+Started GET "/l" for 127.0.0.1 at 2011-08-24 16:06:29 +0900
+
+ActionController::RoutingError (No route matches "/l"):
+  
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/logout" for 127.0.0.1 at 2011-08-24 16:06:30 +0900
+
+SyntaxError (/Users/namai/workspace/web/hackathon/idiary_test/app/controllers/diaries_controller.rb:46: syntax error, unexpected tSTRING_BEG, expecting keyword_end
+    pp response = DiariesController.rixi.people "@me", "@self"
+                                                 ^
+/Users/namai/workspace/web/hackathon/idiary_test/app/controllers/diaries_controller.rb:46: syntax error, unexpected ',', expecting keyword_end
+    pp response = DiariesController.rixi.people "@me", "@self"
+                                                      ^):
+  
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.9ms)
+
+
+Started GET "/logou" for 127.0.0.1 at 2011-08-24 16:06:33 +0900
+
+ActionController::RoutingError (No route matches "/logou"):
+  
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-24 16:06:33 +0900
+
+SyntaxError (/Users/namai/workspace/web/hackathon/idiary_test/app/controllers/diaries_controller.rb:46: syntax error, unexpected tSTRING_BEG, expecting keyword_end
+    pp response = DiariesController.rixi.people "@me", "@self"
+                                                 ^
+/Users/namai/workspace/web/hackathon/idiary_test/app/controllers/diaries_controller.rb:46: syntax error, unexpected ',', expecting keyword_end
+    pp response = DiariesController.rixi.people "@me", "@self"
+                                                      ^):
+  
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-24 16:06:42 +0900
+
+SyntaxError (/Users/namai/workspace/web/hackathon/idiary_test/app/controllers/diaries_controller.rb:46: syntax error, unexpected tSTRING_BEG, expecting keyword_end
+    pp response = DiariesController.rixi.people "@me", "@self"
+                                                 ^
+/Users/namai/workspace/web/hackathon/idiary_test/app/controllers/diaries_controller.rb:46: syntax error, unexpected ',', expecting keyword_end
+    pp response = DiariesController.rixi.people "@me", "@self"
+                                                      ^):
+  
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-24 16:06:43 +0900
+
+SyntaxError (/Users/namai/workspace/web/hackathon/idiary_test/app/controllers/diaries_controller.rb:46: syntax error, unexpected tSTRING_BEG, expecting keyword_end
+    pp response = DiariesController.rixi.people "@me", "@self"
+                                                 ^
+/Users/namai/workspace/web/hackathon/idiary_test/app/controllers/diaries_controller.rb:46: syntax error, unexpected ',', expecting keyword_end
+    pp response = DiariesController.rixi.people "@me", "@self"
+                                                      ^):
+  
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-24 16:06:44 +0900
+
+SyntaxError (/Users/namai/workspace/web/hackathon/idiary_test/app/controllers/diaries_controller.rb:46: syntax error, unexpected tSTRING_BEG, expecting keyword_end
+    pp response = DiariesController.rixi.people "@me", "@self"
+                                                 ^
+/Users/namai/workspace/web/hackathon/idiary_test/app/controllers/diaries_controller.rb:46: syntax error, unexpected ',', expecting keyword_end
+    pp response = DiariesController.rixi.people "@me", "@self"
+                                                      ^):
+  
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.4ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from service at /Users/namai/.rvm/rubies/ruby-1.9.2-p180/lib/ruby/1.9.1/webrick/httpserver.rb:111)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-24 16:08:03 +0900
+
+SyntaxError (/Users/namai/workspace/web/hackathon/idiary_test/app/controllers/diaries_controller.rb:46: syntax error, unexpected tSTRING_BEG, expecting keyword_end
+    pp response = @@mixi.people "@me", "@self"
+                                 ^
+/Users/namai/workspace/web/hackathon/idiary_test/app/controllers/diaries_controller.rb:46: syntax error, unexpected ',', expecting keyword_end
+    pp response = @@mixi.people "@me", "@self"
+                                      ^):
+  
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.1ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-24 16:08:20 +0900
+
+SyntaxError (/Users/namai/workspace/web/hackathon/idiary_test/app/controllers/diaries_controller.rb:46: syntax error, unexpected tSTRING_BEG, expecting keyword_end
+    pp response = @@mixi.people "@me", "@self"
+                                 ^
+/Users/namai/workspace/web/hackathon/idiary_test/app/controllers/diaries_controller.rb:46: syntax error, unexpected ',', expecting keyword_end
+    pp response = @@mixi.people "@me", "@self"
+                                      ^):
+  
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (21.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-24 16:08:21 +0900
+
+SyntaxError (/Users/namai/workspace/web/hackathon/idiary_test/app/controllers/diaries_controller.rb:46: syntax error, unexpected tSTRING_BEG, expecting keyword_end
+    pp response = @@mixi.people "@me", "@self"
+                                 ^
+/Users/namai/workspace/web/hackathon/idiary_test/app/controllers/diaries_controller.rb:46: syntax error, unexpected ',', expecting keyword_end
+    pp response = @@mixi.people "@me", "@self"
+                                      ^):
+  
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.8ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from service at /Users/namai/.rvm/rubies/ruby-1.9.2-p180/lib/ruby/1.9.1/webrick/httpserver.rb:111)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-24 16:08:53 +0900
+
+SyntaxError (/Users/namai/workspace/web/hackathon/idiary_test/app/controllers/diaries_controller.rb:47: syntax error, unexpected tSTRING_BEG, expecting keyword_end
+    pp response = @@mixi.people "@me", "@self"
+                                 ^
+/Users/namai/workspace/web/hackathon/idiary_test/app/controllers/diaries_controller.rb:47: syntax error, unexpected ',', expecting keyword_end
+    pp response = @@mixi.people "@me", "@self"
+                                      ^):
+  
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.0ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-24 16:08:54 +0900
+
+SyntaxError (/Users/namai/workspace/web/hackathon/idiary_test/app/controllers/diaries_controller.rb:47: syntax error, unexpected tSTRING_BEG, expecting keyword_end
+    pp response = @@mixi.people "@me", "@self"
+                                 ^
+/Users/namai/workspace/web/hackathon/idiary_test/app/controllers/diaries_controller.rb:47: syntax error, unexpected ',', expecting keyword_end
+    pp response = @@mixi.people "@me", "@self"
+                                      ^):
+  
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-24 16:09:00 +0900
+  Processing by DiariesController#index as HTML
+Completed 500 Internal Server Error in 0ms
+
+NameError (uninitialized class variable @@mixi in DiariesController):
+  app/controllers/diaries_controller.rb:65:in `index'
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.3ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-24 16:09:27 +0900
+  Processing by DiariesController#index as HTML
+Rendered diaries/index.html.erb within layouts/application (60.3ms)
+Completed 500 Internal Server Error in 64ms
+
+ActionView::Template::Error (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each):
+    34:     <th></th>
+    35:   </tr>
+    36: 
+    37: <% @diaries.each do |diary| %>
+    38:   <tr>
+    39: <<<<<<< HEAD
+    40: <<<<<<< HEAD
+  app/views/diaries/index.html.erb:37:in `_app_views_diaries_index_html_erb___2546156286753473318_70212071923900__4019223326187485795'
+  app/controllers/diaries_controller.rb:70:in `index'
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.3ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (7.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-24 16:09:27 +0900
+  Processing by DiariesController#index as HTML
+Rendered diaries/index.html.erb within layouts/application (1.1ms)
+Completed 500 Internal Server Error in 5ms
+
+ActionView::Template::Error (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each):
+    34:     <th></th>
+    35:   </tr>
+    36: 
+    37: <% @diaries.each do |diary| %>
+    38:   <tr>
+    39: <<<<<<< HEAD
+    40: <<<<<<< HEAD
+  app/views/diaries/index.html.erb:37:in `_app_views_diaries_index_html_erb___2546156286753473318_70212084275580__4019223326187485795'
+  app/controllers/diaries_controller.rb:70:in `index'
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.9ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-24 16:10:18 +0900
+  Processing by DiariesController#index as HTML
+Rendered diaries/index.html.erb within layouts/application (19.2ms)
+Completed 200 OK in 23ms (Views: 22.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/javascripts/jquery_ujs.js" for 127.0.0.1 at 2011-08-24 16:10:18 +0900
+
+ActionController::RoutingError (No route matches "/javascripts/jquery_ujs.js"):
+  
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/javascripts/jquery.js" for 127.0.0.1 at 2011-08-24 16:10:18 +0900
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js"):
+  
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-24 16:11:32 +0900
+  Processing by DiariesController#index as HTML
+Rendered diaries/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 5ms (Views: 4.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/javascripts/jquery.js" for 127.0.0.1 at 2011-08-24 16:11:32 +0900
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js"):
+  
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/javascripts/jquery_ujs.js" for 127.0.0.1 at 2011-08-24 16:11:32 +0900
+
+ActionController::RoutingError (No route matches "/javascripts/jquery_ujs.js"):
+  
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from service at /Users/namai/.rvm/rubies/ruby-1.9.2-p180/lib/ruby/1.9.1/webrick/httpserver.rb:111)
+
+
+Started GET "/logout" for 127.0.0.1 at 2011-08-24 16:12:18 +0900
+
+SyntaxError (/Users/namai/workspace/web/hackathon/idiary_test/app/controllers/diaries_controller.rb:47: syntax error, unexpected tSTRING_BEG, expecting keyword_end
+    pp response = @@mixi.people "@me", "@self"
+                                 ^
+/Users/namai/workspace/web/hackathon/idiary_test/app/controllers/diaries_controller.rb:47: syntax error, unexpected ',', expecting keyword_end
+    pp response = @@mixi.people "@me", "@self"
+                                      ^):
+  
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.1ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.1ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.3ms)
+
+
+Started GET "/logout" for 127.0.0.1 at 2011-08-24 16:12:37 +0900
+
+SyntaxError (/Users/namai/workspace/web/hackathon/idiary_test/app/controllers/diaries_controller.rb:47: syntax error, unexpected tSTRING_BEG, expecting keyword_end
+    pp response = @@mixi.people "@me", "@self"
+                                 ^
+/Users/namai/workspace/web/hackathon/idiary_test/app/controllers/diaries_controller.rb:47: syntax error, unexpected ',', expecting keyword_end
+    pp response = @@mixi.people "@me", "@self"
+                                      ^):
+  
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (21.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-24 16:12:40 +0900
+
+SyntaxError (/Users/namai/workspace/web/hackathon/idiary_test/app/controllers/diaries_controller.rb:47: syntax error, unexpected tSTRING_BEG, expecting keyword_end
+    pp response = @@mixi.people "@me", "@self"
+                                 ^
+/Users/namai/workspace/web/hackathon/idiary_test/app/controllers/diaries_controller.rb:47: syntax error, unexpected ',', expecting keyword_end
+    pp response = @@mixi.people "@me", "@self"
+                                      ^):
+  
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-24 16:12:57 +0900
+  Processing by DiariesController#index as HTML
+Rendered diaries/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 5ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/javascripts/jquery.js" for 127.0.0.1 at 2011-08-24 16:12:57 +0900
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js"):
+  
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/javascripts/jquery_ujs.js" for 127.0.0.1 at 2011-08-24 16:12:57 +0900
+
+ActionController::RoutingError (No route matches "/javascripts/jquery_ujs.js"):
+  
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/logout" for 127.0.0.1 at 2011-08-24 16:13:00 +0900
+  Processing by DiariesController#logout as HTML
+Redirected to http://0.0.0.0:3000/
+Completed 302 Found in 1ms
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-24 16:13:00 +0900
+  Processing by DiariesController#index as HTML
+Rendered diaries/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/javascripts/jquery.js" for 127.0.0.1 at 2011-08-24 16:13:00 +0900
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js"):
+  
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/javascripts/jquery_ujs.js" for 127.0.0.1 at 2011-08-24 16:13:00 +0900
+
+ActionController::RoutingError (No route matches "/javascripts/jquery_ujs.js"):
+  
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-24 16:13:38 +0900
+  Processing by DiariesController#index as HTML
+Rendered diaries/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 5ms (Views: 4.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/javascripts/jquery.js" for 127.0.0.1 at 2011-08-24 16:13:38 +0900
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js"):
+  
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/javascripts/jquery_ujs.js" for 127.0.0.1 at 2011-08-24 16:13:38 +0900
+
+ActionController::RoutingError (No route matches "/javascripts/jquery_ujs.js"):
+  
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-24 16:13:39 +0900
+  Processing by DiariesController#index as HTML
+Rendered diaries/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 5ms (Views: 4.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/javascripts/jquery_ujs.js" for 127.0.0.1 at 2011-08-24 16:13:39 +0900
+
+ActionController::RoutingError (No route matches "/javascripts/jquery_ujs.js"):
+  
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/javascripts/jquery.js" for 127.0.0.1 at 2011-08-24 16:13:39 +0900
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js"):
+  
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2011-08-24 16:13:41 +0900
+  Processing by DiariesController#login as HTML
+Redirected to https://mixi.jp/connect_authorize.pl?response_type=code&client_id=8a8a598385989ae796ec&scope=r_profile%20w_profile%20r_profile_status%20r_profile_gender%20r_profile_birthday%20r_profile_blood_type%20r_profile_location%20r_profile_hometown%20r_profile_about_me%20r_profile_occupation%20r_profile_interests%20r_profile_favorite_things%20r_profile_organizations%20r_voice%20w_voice%20w_share%20r_photo%20w_photo%20r_message%20w_message%20w_diary%20r_checkin%20w_checkin%20r_updates
+Completed 302 Found in 91ms
+
+
+Started GET "/callback?code=1d0036dbd19f53f3aa804e5e611c0e7c016d0059" for 127.0.0.1 at 2011-08-24 16:13:44 +0900
+  Processing by DiariesController#callback as HTML
+  Parameters: {"code"=>"1d0036dbd19f53f3aa804e5e611c0e7c016d0059"}
+Redirected to http://0.0.0.0:3000/
+Completed 302 Found in 1032ms
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-24 16:13:45 +0900
+  Processing by DiariesController#index as HTML
+Completed 500 Internal Server Error in 2ms
+
+NoMethodError (undefined method `expired?' for nil:NilClass):
+  app/controllers/diaries_controller.rb:64:in `index'
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.2ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.0ms)
