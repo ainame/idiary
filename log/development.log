@@ -278,3 +278,40 @@ ActionController::RoutingError (No route matches "/javascripts/jquery.js"):
   
 
 Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/users/callback?code=adbc0d4136a30ce67b9cb8d71aee2dd523c459a7" for 127.0.0.1 at 2011-08-24 14:19:29 +0900
+  Processing by UsersController#show as HTML
+  Parameters: {"code"=>"adbc0d4136a30ce67b9cb8d71aee2dd523c459a7", "id"=>"callback"}
+  [1m[36mSQL (0.3ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+Completed 500 Internal Server Error in 3ms
+
+NoMethodError (undefined method `eq' for nil:NilClass):
+  app/controllers/users_controller.rb:16:in `show'
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.9ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.2ms)
+
+
+Started GET "/users/callback?code=190e3b261945a414997c31ba94b8a4559580a0ce" for 127.0.0.1 at 2011-08-24 14:20:04 +0900
+  Processing by UsersController#show as HTML
+  Parameters: {"code"=>"190e3b261945a414997c31ba94b8a4559580a0ce", "id"=>"callback"}
+  [1m[36mSQL (0.3ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Completed 500 Internal Server Error in 2ms
+
+NoMethodError (undefined method `eq' for nil:NilClass):
+  app/controllers/users_controller.rb:16:in `show'
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.8ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.9ms)
