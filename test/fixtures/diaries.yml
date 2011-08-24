@@ -1,6 +1,16 @@
 # Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
 
 one:
+<<<<<<< HEAD
+<<<<<<< HEAD
+  screen_name: MyString
+=======
+>>>>>>> 2dbeafdf658769ebdba7832beae0a625fed8a013
+=======
+=======
+  screen_name: MyString
+>>>>>>> 1b5139782cfe2e33304924a22a480a77438b51de
+>>>>>>> 982316d1d99234c04c5cff3ade46d6f7c269cf98
   user_id: 1
   title: 
   body: 
@@ -9,6 +19,16 @@ one:
   photo_url_3: MyText
 
 two:
+<<<<<<< HEAD
+<<<<<<< HEAD
+  screen_name: MyString
+=======
+>>>>>>> 2dbeafdf658769ebdba7832beae0a625fed8a013
+=======
+=======
+  screen_name: MyString
+>>>>>>> 1b5139782cfe2e33304924a22a480a77438b51de
+>>>>>>> 982316d1d99234c04c5cff3ade46d6f7c269cf98
   user_id: 1
   title: 
   body: 

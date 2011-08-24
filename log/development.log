@@ -278,3 +278,1428 @@ ActionController::RoutingError (No route matches "/javascripts/jquery.js"):
   
 
 Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/users/callback?code=adbc0d4136a30ce67b9cb8d71aee2dd523c459a7" for 127.0.0.1 at 2011-08-24 14:19:29 +0900
+  Processing by UsersController#show as HTML
+  Parameters: {"code"=>"adbc0d4136a30ce67b9cb8d71aee2dd523c459a7", "id"=>"callback"}
+  [1m[36mSQL (0.3ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+Completed 500 Internal Server Error in 3ms
+
+NoMethodError (undefined method `eq' for nil:NilClass):
+  app/controllers/users_controller.rb:16:in `show'
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.9ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.2ms)
+
+
+Started GET "/users/callback?code=190e3b261945a414997c31ba94b8a4559580a0ce" for 127.0.0.1 at 2011-08-24 14:20:04 +0900
+  Processing by UsersController#show as HTML
+  Parameters: {"code"=>"190e3b261945a414997c31ba94b8a4559580a0ce", "id"=>"callback"}
+  [1m[36mSQL (0.3ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Completed 500 Internal Server Error in 2ms
+
+NoMethodError (undefined method `eq' for nil:NilClass):
+  app/controllers/users_controller.rb:16:in `show'
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.8ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.9ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from service at /Users/namai/.rvm/rubies/ruby-1.9.2-p180/lib/ruby/1.9.1/webrick/httpserver.rb:111)
+
+
+Started GET "/callback?code=fd2e772d03370f78fc56968625dd27c1f9c36ebb" for 127.0.0.1 at 2011-08-24 14:54:32 +0900
+  Processing by DiariesController#callback as HTML
+  Parameters: {"code"=>"fd2e772d03370f78fc56968625dd27c1f9c36ebb"}
+Completed 500 Internal Server Error in 0ms
+
+NameError (uninitialized class variable @@mixi in DiariesController):
+  app/controllers/diaries_controller.rb:40:in `callback'
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (16.6ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (21.9ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from service at /Users/namai/.rvm/rubies/ruby-1.9.2-p180/lib/ruby/1.9.1/webrick/httpserver.rb:111)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-24 15:08:42 +0900
+  Processing by DiariesController#index as HTML
+Rendered diaries/index.html.erb within layouts/application (30.6ms)
+Completed 500 Internal Server Error in 35ms
+
+ActionView::Template::Error (undefined local variable or method `sesion' for #<#<Class:0x007fefe3a382b8>:0x007fefe3a35928>):
+    1: Profile
+    2: 
+    3: <%= session[:screen_name] %>
+    4: <%= sesion[:uid]%>
+    5: <img src="<%=session[:thumbnailUrl]%>"/>
+    6: 
+    7: 
+  app/views/diaries/index.html.erb:4:in `_app_views_diaries_index_html_erb___3747302108829431088_70334146517300__1874933599929423512'
+  app/controllers/diaries_controller.rb:61:in `index'
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (6.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-24 15:08:48 +0900
+  Processing by DiariesController#index as HTML
+Rendered diaries/index.html.erb within layouts/application (4.2ms)
+Completed 500 Internal Server Error in 8ms
+
+ActionView::Template::Error (undefined local variable or method `sesion' for #<#<Class:0x007fefe3bf2770>:0x007fefe3bee9e0>):
+    1: Profile
+    2: 
+    3: <%= session[:screen_name] %>
+    4: <%= sesion[:uid]%>
+    5: <img src="<%=session[:thumbnailUrl]%>"/>
+    6: 
+    7: 
+  app/views/diaries/index.html.erb:4:in `_app_views_diaries_index_html_erb___3747302108829431088_70334147418680__1874933599929423512'
+  app/controllers/diaries_controller.rb:61:in `index'
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (6.2ms)
+
+
+Started GET "/d" for 127.0.0.1 at 2011-08-24 15:08:51 +0900
+
+ActionController::RoutingError (No route matches "/d"):
+  
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/diar" for 127.0.0.1 at 2011-08-24 15:08:51 +0900
+
+ActionController::RoutingError (No route matches "/diar"):
+  
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/diarie" for 127.0.0.1 at 2011-08-24 15:08:52 +0900
+
+ActionController::RoutingError (No route matches "/diarie"):
+  
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/diaries" for 127.0.0.1 at 2011-08-24 15:08:52 +0900
+  Processing by DiariesController#index as HTML
+Rendered diaries/index.html.erb within layouts/application (4.7ms)
+Completed 500 Internal Server Error in 8ms
+
+ActionView::Template::Error (undefined local variable or method `sesion' for #<#<Class:0x007fefe449dde8>:0x007fefe4494928>):
+    1: Profile
+    2: 
+    3: <%= session[:screen_name] %>
+    4: <%= sesion[:uid]%>
+    5: <img src="<%=session[:thumbnailUrl]%>"/>
+    6: 
+    7: 
+  app/views/diaries/index.html.erb:4:in `_app_views_diaries_index_html_erb___3747302108829431088_70334151949260__1874933599929423512'
+  app/controllers/diaries_controller.rb:61:in `index'
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.2ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (6.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-24 15:09:03 +0900
+  Processing by DiariesController#index as HTML
+Rendered diaries/index.html.erb within layouts/application (4.3ms)
+Completed 500 Internal Server Error in 8ms
+
+ActionView::Template::Error (undefined local variable or method `diary' for #<#<Class:0x007fefe39ff850>:0x007fefe39fcce0>):
+    5: <img src="<%=session[:thumbnailUrl]%>"/>
+    6: 
+    7: 
+    8: <%= link_to 'Show', diary %>
+    9: <%= link_to 'Edit', edit_diary_path(diary) %>
+    10: <%= link_to 'Destroy', diary, :confirm => 'Are you sure?', :method => :delete %>
+    11: 
+  app/views/diaries/index.html.erb:8:in `_app_views_diaries_index_html_erb___3747302108829431088_70334146399520__1874933599929423512'
+  app/controllers/diaries_controller.rb:61:in `index'
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (18.8ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (23.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-24 15:09:03 +0900
+  Processing by DiariesController#index as HTML
+Rendered diaries/index.html.erb within layouts/application (6.8ms)
+Completed 500 Internal Server Error in 13ms
+
+ActionView::Template::Error (undefined local variable or method `diary' for #<#<Class:0x007fefe419d6e8>:0x007fefe41807c8>):
+    5: <img src="<%=session[:thumbnailUrl]%>"/>
+    6: 
+    7: 
+    8: <%= link_to 'Show', diary %>
+    9: <%= link_to 'Edit', edit_diary_path(diary) %>
+    10: <%= link_to 'Destroy', diary, :confirm => 'Are you sure?', :method => :delete %>
+    11: 
+  app/views/diaries/index.html.erb:8:in `_app_views_diaries_index_html_erb___3747302108829431088_70334150321400__1874933599929423512'
+  app/controllers/diaries_controller.rb:61:in `index'
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (6.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-24 15:09:19 +0900
+  Processing by DiariesController#index as HTML
+Rendered diaries/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/javascripts/jquery_ujs.js" for 127.0.0.1 at 2011-08-24 15:09:19 +0900
+
+ActionController::RoutingError (No route matches "/javascripts/jquery_ujs.js"):
+  
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/javascripts/jquery.js" for 127.0.0.1 at 2011-08-24 15:09:19 +0900
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js"):
+  
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-24 15:09:19 +0900
+  Processing by DiariesController#index as 
+Rendered diaries/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 5ms (Views: 4.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-24 15:12:38 +0900
+  Processing by DiariesController#index as HTML
+Rendered diaries/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 5ms (Views: 4.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/javascripts/jquery.js" for 127.0.0.1 at 2011-08-24 15:12:38 +0900
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js"):
+  
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.3ms)
+
+
+Started GET "/javascripts/jquery_ujs.js" for 127.0.0.1 at 2011-08-24 15:12:38 +0900
+
+ActionController::RoutingError (No route matches "/javascripts/jquery_ujs.js"):
+  
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2011-08-24 15:12:40 +0900
+  Processing by DiariesController#login as HTML
+Completed 500 Internal Server Error in 1ms
+
+NoMethodError (undefined method `authorize_uri' for #<Rixi:0x007fefe464f448>):
+  app/controllers/diaries_controller.rb:36:in `login'
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.2ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.3ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2011-08-24 15:13:31 +0900
+  Processing by DiariesController#login as HTML
+Completed 500 Internal Server Error in 108ms
+
+NoMethodError (undefined method `redirect' for #<DiariesController:0x007fefe3b0afd8>):
+  app/controllers/diaries_controller.rb:36:in `login'
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.1ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-24 15:13:34 +0900
+  Processing by DiariesController#index as HTML
+Rendered diaries/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 5ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2011-08-24 15:13:35 +0900
+  Processing by DiariesController#login as HTML
+Completed 500 Internal Server Error in 1ms
+
+NoMethodError (undefined method `redirect' for #<DiariesController:0x007fefe3d9c648>):
+  app/controllers/diaries_controller.rb:36:in `login'
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.3ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2011-08-24 15:13:54 +0900
+  Processing by DiariesController#login as HTML
+Redirected to https://mixi.jp/connect_authorize.pl?response_type=code&client_id=8a8a598385989ae796ec&scope=r_profile%20w_profile%20r_profile_status%20r_profile_gender%20r_profile_birthday%20r_profile_blood_type%20r_profile_location%20r_profile_hometown%20r_profile_about_me%20r_profile_occupation%20r_profile_interests%20r_profile_favorite_things%20r_profile_organizations%20r_voice%20w_voice%20w_share%20r_photo%20w_photo%20r_message%20w_message%20w_diary%20r_checkin%20w_checkin%20r_updates
+Completed 302 Found in 1ms
+
+
+Started GET "/callback?code=5cdcc9cbd37f03d79619d31e9bde14c720fc597f" for 127.0.0.1 at 2011-08-24 15:14:08 +0900
+  Processing by DiariesController#callback as HTML
+  Parameters: {"code"=>"5cdcc9cbd37f03d79619d31e9bde14c720fc597f"}
+Completed 500 Internal Server Error in 0ms
+
+NameError (uninitialized class variable @@mixi in DiariesController):
+  app/controllers/diaries_controller.rb:40:in `callback'
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (21.1ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.1ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (26.2ms)
+
+
+Started GET "/callback?code=5cdcc9cbd37f03d79619d31e9bde14c720fc597f" for 127.0.0.1 at 2011-08-24 15:17:13 +0900
+  Processing by DiariesController#callback as HTML
+  Parameters: {"code"=>"5cdcc9cbd37f03d79619d31e9bde14c720fc597f"}
+Completed 500 Internal Server Error in 0ms
+
+NameError (uninitialized class variable @@mixi in DiariesController):
+  app/controllers/diaries_controller.rb:45:in `callback'
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.1ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.0ms)
+
+
+Started GET "/c" for 127.0.0.1 at 2011-08-24 15:17:16 +0900
+
+ActionController::RoutingError (No route matches "/c"):
+  
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-24 15:17:16 +0900
+  Processing by DiariesController#index as HTML
+Rendered diaries/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 5ms (Views: 4.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/javascripts/jquery.js" for 127.0.0.1 at 2011-08-24 15:17:16 +0900
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js"):
+  
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/javascripts/jquery_ujs.js" for 127.0.0.1 at 2011-08-24 15:17:16 +0900
+
+ActionController::RoutingError (No route matches "/javascripts/jquery_ujs.js"):
+  
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2011-08-24 15:17:18 +0900
+  Processing by DiariesController#login as HTML
+Completed 500 Internal Server Error in 0ms
+
+NameError (uninitialized class variable @@mixi in DiariesController):
+  app/controllers/diaries_controller.rb:39:in `login'
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.2ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.3ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2011-08-24 15:17:51 +0900
+  Processing by DiariesController#login as HTML
+Completed 500 Internal Server Error in 0ms
+
+NameError (uninitialized class variable @@mixi in DiariesController):
+  app/controllers/diaries_controller.rb:39:in `login'
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-24 15:17:53 +0900
+  Processing by DiariesController#index as HTML
+Rendered diaries/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/javascripts/jquery.js" for 127.0.0.1 at 2011-08-24 15:17:53 +0900
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js"):
+  
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/javascripts/jquery_ujs.js" for 127.0.0.1 at 2011-08-24 15:17:53 +0900
+
+ActionController::RoutingError (No route matches "/javascripts/jquery_ujs.js"):
+  
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-24 15:17:54 +0900
+  Processing by DiariesController#index as HTML
+Rendered diaries/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 8ms (Views: 7.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/javascripts/jquery.js" for 127.0.0.1 at 2011-08-24 15:17:54 +0900
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js"):
+  
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/javascripts/jquery_ujs.js" for 127.0.0.1 at 2011-08-24 15:17:54 +0900
+
+ActionController::RoutingError (No route matches "/javascripts/jquery_ujs.js"):
+  
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2011-08-24 15:17:55 +0900
+  Processing by DiariesController#login as HTML
+Completed 500 Internal Server Error in 0ms
+
+NameError (uninitialized class variable @@mixi in DiariesController):
+  app/controllers/diaries_controller.rb:39:in `login'
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.2ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.4ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2011-08-24 15:18:07 +0900
+  Processing by DiariesController#login as HTML
+Completed 500 Internal Server Error in 1ms
+
+NoMethodError (undefined method `rixi' for #<DiariesController:0x007fefe3a40ee0>):
+  app/controllers/diaries_controller.rb:39:in `login'
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (26.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-24 15:18:10 +0900
+  Processing by DiariesController#index as HTML
+Rendered diaries/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/javascripts/jquery_ujs.js" for 127.0.0.1 at 2011-08-24 15:18:10 +0900
+
+ActionController::RoutingError (No route matches "/javascripts/jquery_ujs.js"):
+  
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/javascripts/jquery.js" for 127.0.0.1 at 2011-08-24 15:18:10 +0900
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js"):
+  
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2011-08-24 15:18:12 +0900
+  Processing by DiariesController#login as HTML
+Completed 500 Internal Server Error in 1ms
+
+NoMethodError (undefined method `rixi' for #<DiariesController:0x007fefe50db510>):
+  app/controllers/diaries_controller.rb:39:in `login'
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.1ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-24 15:18:21 +0900
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from service at /Users/namai/.rvm/rubies/ruby-1.9.2-p180/lib/ruby/1.9.1/webrick/httpserver.rb:111)
+  Processing by DiariesController#index as HTML
+Rendered diaries/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 5ms (Views: 4.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-24 15:18:21 +0900
+  Processing by DiariesController#index as HTML
+Rendered diaries/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 11ms (Views: 10.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/javascripts/jquery_ujs.js" for 127.0.0.1 at 2011-08-24 15:18:21 +0900
+
+ActionController::RoutingError (No route matches "/javascripts/jquery_ujs.js"):
+  
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/javascripts/jquery.js" for 127.0.0.1 at 2011-08-24 15:18:21 +0900
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js"):
+  
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2011-08-24 15:18:23 +0900
+  Processing by DiariesController#login as HTML
+Completed 500 Internal Server Error in 1ms
+
+NoMethodError (undefined method `rixi' for #<DiariesController:0x007f9029a5cc18>):
+  app/controllers/diaries_controller.rb:39:in `login'
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.5ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.5ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2011-08-24 15:18:58 +0900
+  Processing by DiariesController#login as HTML
+Completed 500 Internal Server Error in 1ms
+
+NoMethodError (undefined method `Rixi' for #<DiariesController:0x007f902a5e37a8>):
+  app/controllers/diaries_controller.rb:39:in `login'
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2011-08-24 15:21:26 +0900
+  Processing by DiariesController#login as HTML
+Completed 500 Internal Server Error in 1ms
+
+NoMethodError (undefined method `rixi' for #<DiariesController:0x007f9029adc788>):
+  app/controllers/diaries_controller.rb:39:in `login'
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.2ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-24 15:22:04 +0900
+  Processing by DiariesController#index as HTML
+Rendered diaries/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-24 15:22:04 +0900
+  Processing by DiariesController#index as HTML
+Rendered diaries/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 15ms (Views: 14.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/javascripts/jquery.js" for 127.0.0.1 at 2011-08-24 15:22:04 +0900
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js"):
+  
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (4.9ms)
+
+
+Started GET "/javascripts/jquery_ujs.js" for 127.0.0.1 at 2011-08-24 15:22:04 +0900
+
+ActionController::RoutingError (No route matches "/javascripts/jquery_ujs.js"):
+  
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.6ms)
+
+
+Started GET "/javascripts/jquery.js" for 127.0.0.1 at 2011-08-24 15:22:04 +0900
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js"):
+  
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/javascripts/jquery_ujs.js" for 127.0.0.1 at 2011-08-24 15:22:04 +0900
+
+ActionController::RoutingError (No route matches "/javascripts/jquery_ujs.js"):
+  
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.3ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2011-08-24 15:22:05 +0900
+  Processing by DiariesController#login as HTML
+Completed 500 Internal Server Error in 1ms
+
+NoMethodError (undefined method `rixi' for #<DiariesController:0x007f9029994448>):
+  app/controllers/diaries_controller.rb:39:in `login'
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2011-08-24 15:22:53 +0900
+  Processing by DiariesController#login as HTML
+Completed 500 Internal Server Error in 1ms
+
+NoMethodError (undefined method `rixi' for #<DiariesController:0x007f902a0a5f98>):
+  app/controllers/diaries_controller.rb:39:in `login'
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.1ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.9ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from service at /Users/namai/.rvm/rubies/ruby-1.9.2-p180/lib/ruby/1.9.1/webrick/httpserver.rb:111)
+
+
+Started GET "/login" for 127.0.0.1 at 2011-08-24 15:23:06 +0900
+  Processing by DiariesController#login as HTML
+Completed 500 Internal Server Error in 1ms
+
+NoMethodError (undefined method `rixi' for #<DiariesController:0x007fcd037976d8>):
+  app/controllers/diaries_controller.rb:39:in `login'
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.1ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.3ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from service at /Users/namai/.rvm/rubies/ruby-1.9.2-p180/lib/ruby/1.9.1/webrick/httpserver.rb:111)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-24 15:23:43 +0900
+  Processing by DiariesController#index as HTML
+Rendered diaries/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 6ms (Views: 5.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-24 15:24:02 +0900
+  Processing by DiariesController#index as HTML
+Rendered diaries/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 21ms (Views: 21.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/javascripts/jquery.js" for 127.0.0.1 at 2011-08-24 15:24:02 +0900
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js"):
+  
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/javascripts/jquery_ujs.js" for 127.0.0.1 at 2011-08-24 15:24:02 +0900
+
+ActionController::RoutingError (No route matches "/javascripts/jquery_ujs.js"):
+  
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2011-08-24 15:24:05 +0900
+  Processing by DiariesController#login as HTML
+Completed 500 Internal Server Error in 1ms
+
+NoMethodError (undefined method `rixi' for #<DiariesController:0x007fb94ce50288>):
+  app/controllers/diaries_controller.rb:39:in `login'
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.1ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.3ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2011-08-24 15:24:21 +0900
+  Processing by DiariesController#login as HTML
+Completed 500 Internal Server Error in 1ms
+
+NameError (undefined local variable or method `rixi' for #<DiariesController:0x007fb94c8e7fa8>):
+  app/controllers/diaries_controller.rb:39:in `login'
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.1ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from service at /Users/namai/.rvm/rubies/ruby-1.9.2-p180/lib/ruby/1.9.1/webrick/httpserver.rb:111)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-24 15:24:32 +0900
+  Processing by DiariesController#index as HTML
+Rendered diaries/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 5ms (Views: 4.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2011-08-24 15:24:32 +0900
+  Processing by DiariesController#login as HTML
+Completed 500 Internal Server Error in 1ms
+
+NameError (undefined local variable or method `rixi' for #<DiariesController:0x007fb665cca9c0>):
+  app/controllers/diaries_controller.rb:39:in `login'
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.1ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.2ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2011-08-24 15:24:52 +0900
+  Processing by DiariesController#login as HTML
+Completed 500 Internal Server Error in 1ms
+
+NoMethodError (undefined method `rixi' for #<DiariesController:0x007fb665fa76e8>):
+  app/controllers/diaries_controller.rb:39:in `login'
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.1ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-24 15:25:47 +0900
+  Processing by DiariesController#index as HTML
+Rendered diaries/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 5ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2011-08-24 15:25:47 +0900
+  Processing by DiariesController#login as HTML
+Completed 500 Internal Server Error in 0ms
+
+NoMethodError (undefined method `pp' for DiariesController:Class):
+  app/controllers/diaries_controller.rb:29:in `rixi'
+  app/controllers/diaries_controller.rb:39:in `login'
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.1ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2011-08-24 15:25:55 +0900
+  Processing by DiariesController#login as HTML
+Redirected to https://mixi.jp/connect_authorize.pl?response_type=code&client_id=8a8a598385989ae796ec&scope=r_profile%20w_profile%20r_profile_status%20r_profile_gender%20r_profile_birthday%20r_profile_blood_type%20r_profile_location%20r_profile_hometown%20r_profile_about_me%20r_profile_occupation%20r_profile_interests%20r_profile_favorite_things%20r_profile_organizations%20r_voice%20w_voice%20w_share%20r_photo%20w_photo%20r_message%20w_message%20w_diary%20r_checkin%20w_checkin%20r_updates
+Completed 302 Found in 61ms
+
+
+Started GET "/callback?code=58995121258d76958b870309fe6134f7466d4c85" for 127.0.0.1 at 2011-08-24 15:25:58 +0900
+  Processing by DiariesController#callback as HTML
+  Parameters: {"code"=>"58995121258d76958b870309fe6134f7466d4c85"}
+Completed 500 Internal Server Error in 305ms
+
+OAuth2::Error (OAuth2::Error):
+  app/controllers/diaries_controller.rb:44:in `callback'
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.3ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.7ms)
+
+
+Started GET "/callback?code=58995121258d76958b870309fe6134f7466d4c85" for 127.0.0.1 at 2011-08-24 15:29:21 +0900
+  Processing by DiariesController#callback as HTML
+  Parameters: {"code"=>"58995121258d76958b870309fe6134f7466d4c85"}
+Completed 500 Internal Server Error in 1177ms
+
+OAuth2::Error (OAuth2::Error):
+  app/controllers/diaries_controller.rb:46:in `callback'
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.2ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.2ms)
+
+
+Started GET "/callback?code=637843ba5bb2519553b7d2ba16ee04b18db4a9f7" for 127.0.0.1 at 2011-08-24 15:29:26 +0900
+  Processing by DiariesController#callback as HTML
+  Parameters: {"code"=>"637843ba5bb2519553b7d2ba16ee04b18db4a9f7"}
+Completed 500 Internal Server Error in 148ms
+
+OAuth2::Error (OAuth2::Error):
+  app/controllers/diaries_controller.rb:46:in `callback'
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.2ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.0ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from service at /Users/namai/.rvm/rubies/ruby-1.9.2-p180/lib/ruby/1.9.1/webrick/httpserver.rb:111)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-24 15:29:49 +0900
+  Processing by DiariesController#index as HTML
+Rendered diaries/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 8ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/javascripts/jquery.js" for 127.0.0.1 at 2011-08-24 15:29:50 +0900
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js"):
+  
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/javascripts/jquery_ujs.js" for 127.0.0.1 at 2011-08-24 15:29:50 +0900
+
+ActionController::RoutingError (No route matches "/javascripts/jquery_ujs.js"):
+  
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2011-08-24 15:29:52 +0900
+  Processing by DiariesController#login as HTML
+Redirected to https://mixi.jp/connect_authorize.pl?response_type=code&client_id=8a8a598385989ae796ec&scope=r_profile%20w_profile%20r_profile_status%20r_profile_gender%20r_profile_birthday%20r_profile_blood_type%20r_profile_location%20r_profile_hometown%20r_profile_about_me%20r_profile_occupation%20r_profile_interests%20r_profile_favorite_things%20r_profile_organizations%20r_voice%20w_voice%20w_share%20r_photo%20w_photo%20r_message%20w_message%20w_diary%20r_checkin%20w_checkin%20r_updates
+Completed 302 Found in 45ms
+
+
+Started GET "/callback?code=e842dbcf2b6923236304466b92a0ae19722a50fc" for 127.0.0.1 at 2011-08-24 15:29:54 +0900
+  Processing by DiariesController#callback as HTML
+  Parameters: {"code"=>"e842dbcf2b6923236304466b92a0ae19722a50fc"}
+Completed 500 Internal Server Error in 135ms
+
+OAuth2::Error (OAuth2::Error):
+  app/controllers/diaries_controller.rb:46:in `callback'
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.3ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.3ms)
+
+
+Started GET "/callback?code=e842dbcf2b6923236304466b92a0ae19722a50fc" for 127.0.0.1 at 2011-08-24 15:30:16 +0900
+  Processing by DiariesController#callback as HTML
+  Parameters: {"code"=>"e842dbcf2b6923236304466b92a0ae19722a50fc"}
+Completed 500 Internal Server Error in 107ms
+
+OAuth2::Error (OAuth2::Error):
+  app/controllers/diaries_controller.rb:45:in `callback'
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.1ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.9ms)
+
+
+Started GET "/callback?code=b7a2a2ff1c3dcc8075a1789cd89654255923ee71" for 127.0.0.1 at 2011-08-24 15:30:20 +0900
+  Processing by DiariesController#callback as HTML
+  Parameters: {"code"=>"b7a2a2ff1c3dcc8075a1789cd89654255923ee71"}
+Completed 500 Internal Server Error in 99ms
+
+OAuth2::Error (OAuth2::Error):
+  app/controllers/diaries_controller.rb:45:in `callback'
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.1ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.1ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from service at /Users/namai/.rvm/rubies/ruby-1.9.2-p180/lib/ruby/1.9.1/webrick/httpserver.rb:111)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-24 15:30:30 +0900
+  Processing by DiariesController#index as HTML
+Rendered diaries/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 7ms (Views: 6.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-24 15:30:31 +0900
+  Processing by DiariesController#index as HTML
+Rendered diaries/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 5ms (Views: 4.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/javascripts/jquery.js" for 127.0.0.1 at 2011-08-24 15:30:31 +0900
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js"):
+  
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/javascripts/jquery_ujs.js" for 127.0.0.1 at 2011-08-24 15:30:31 +0900
+
+ActionController::RoutingError (No route matches "/javascripts/jquery_ujs.js"):
+  
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2011-08-24 15:30:33 +0900
+  Processing by DiariesController#login as HTML
+Redirected to https://mixi.jp/connect_authorize.pl?response_type=code&client_id=8a8a598385989ae796ec&scope=r_profile%20w_profile%20r_profile_status%20r_profile_gender%20r_profile_birthday%20r_profile_blood_type%20r_profile_location%20r_profile_hometown%20r_profile_about_me%20r_profile_occupation%20r_profile_interests%20r_profile_favorite_things%20r_profile_organizations%20r_voice%20w_voice%20w_share%20r_photo%20w_photo%20r_message%20w_message%20w_diary%20r_checkin%20w_checkin%20r_updates
+Completed 302 Found in 62ms
+
+
+Started GET "/callback?code=10396faaf2facb5686ad66c9ffb9b4c8b1a1a30e" for 127.0.0.1 at 2011-08-24 15:30:35 +0900
+  Processing by DiariesController#callback as HTML
+  Parameters: {"code"=>"10396faaf2facb5686ad66c9ffb9b4c8b1a1a30e"}
+Completed 500 Internal Server Error in 119ms
+
+OAuth2::Error (OAuth2::Error):
+  app/controllers/diaries_controller.rb:45:in `callback'
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.5ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.8ms)
+
+
+Started GET "/callback?code=10396faaf2facb5686ad66c9ffb9b4c8b1a1a30e" for 127.0.0.1 at 2011-08-24 15:32:27 +0900
+  Processing by DiariesController#callback as HTML
+  Parameters: {"code"=>"10396faaf2facb5686ad66c9ffb9b4c8b1a1a30e"}
+Completed 500 Internal Server Error in 131ms
+
+OAuth2::Error (OAuth2::Error):
+  app/controllers/diaries_controller.rb:45:in `callback'
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.3ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.6ms)
+
+
+Started GET "/c" for 127.0.0.1 at 2011-08-24 15:32:30 +0900
+
+ActionController::RoutingError (No route matches "/c"):
+  
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-24 15:32:30 +0900
+  Processing by DiariesController#index as HTML
+Rendered diaries/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 5ms (Views: 4.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/javascripts/jquery.js" for 127.0.0.1 at 2011-08-24 15:32:30 +0900
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js"):
+  
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/javascripts/jquery_ujs.js" for 127.0.0.1 at 2011-08-24 15:32:30 +0900
+
+ActionController::RoutingError (No route matches "/javascripts/jquery_ujs.js"):
+  
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.4ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2011-08-24 15:32:32 +0900
+  Processing by DiariesController#login as HTML
+Redirected to https://mixi.jp/connect_authorize.pl?response_type=code&client_id=8a8a598385989ae796ec&scope=r_profile%20w_profile%20r_profile_status%20r_profile_gender%20r_profile_birthday%20r_profile_blood_type%20r_profile_location%20r_profile_hometown%20r_profile_about_me%20r_profile_occupation%20r_profile_interests%20r_profile_favorite_things%20r_profile_organizations%20r_voice%20w_voice%20w_share%20r_photo%20w_photo%20r_message%20w_message%20w_diary%20r_checkin%20w_checkin%20r_updates
+Completed 302 Found in 1ms
+
+
+Started GET "/callback?code=f2dd6391459c03c5f9d853398f7454c1b6b39c34" for 127.0.0.1 at 2011-08-24 15:32:35 +0900
+  Processing by DiariesController#callback as HTML
+  Parameters: {"code"=>"f2dd6391459c03c5f9d853398f7454c1b6b39c34"}
+Completed 500 Internal Server Error in 105ms
+
+OAuth2::Error (OAuth2::Error):
+  app/controllers/diaries_controller.rb:45:in `callback'
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.1ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-24 15:33:18 +0900
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from service at /Users/namai/.rvm/rubies/ruby-1.9.2-p180/lib/ruby/1.9.1/webrick/httpserver.rb:111)
+  Processing by DiariesController#index as HTML
+Rendered diaries/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 6ms (Views: 5.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-24 15:33:19 +0900
+  Processing by DiariesController#index as HTML
+Rendered diaries/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 9ms (Views: 8.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/javascripts/jquery.js" for 127.0.0.1 at 2011-08-24 15:33:19 +0900
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js"):
+  
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/javascripts/jquery_ujs.js" for 127.0.0.1 at 2011-08-24 15:33:19 +0900
+
+ActionController::RoutingError (No route matches "/javascripts/jquery_ujs.js"):
+  
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2011-08-24 15:33:21 +0900
+  Processing by DiariesController#login as HTML
+Redirected to https://mixi.jp/connect_authorize.pl?response_type=code&client_id=8a8a598385989ae796ec&scope=r_profile%20w_profile%20r_profile_status%20r_profile_gender%20r_profile_birthday%20r_profile_blood_type%20r_profile_location%20r_profile_hometown%20r_profile_about_me%20r_profile_occupation%20r_profile_interests%20r_profile_favorite_things%20r_profile_organizations%20r_voice%20w_voice%20w_share%20r_photo%20w_photo%20r_message%20w_message%20w_diary%20r_checkin%20w_checkin%20r_updates
+Completed 302 Found in 66ms
+
+
+Started GET "/callback?code=f5e43d97b367883fc3fb4ae4e603b4e6f3245c38" for 127.0.0.1 at 2011-08-24 15:33:24 +0900
+  Processing by DiariesController#callback as HTML
+  Parameters: {"code"=>"f5e43d97b367883fc3fb4ae4e603b4e6f3245c38"}
+Completed 500 Internal Server Error in 6782ms
+
+OAuth2::Error (OAuth2::Error):
+  app/controllers/diaries_controller.rb:46:in `callback'
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.2ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.4ms)
+
+
+Started GET "/callback?code=c9fce51cbe7d6c606af3d2b090f2c13ec6882aa3" for 127.0.0.1 at 2011-08-24 15:33:58 +0900
+  Processing by DiariesController#callback as HTML
+  Parameters: {"code"=>"c9fce51cbe7d6c606af3d2b090f2c13ec6882aa3"}
+Completed 500 Internal Server Error in 143ms
+
+OAuth2::Error (OAuth2::Error):
+  app/controllers/diaries_controller.rb:45:in `callback'
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.6ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.8ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from service at /Users/namai/.rvm/rubies/ruby-1.9.2-p180/lib/ruby/1.9.1/webrick/httpserver.rb:111)
+
+
+Started GET "/callback?code=850ce7ee2b79b3eae90fb2fe1d9ba260ca87caf6" for 127.0.0.1 at 2011-08-24 15:34:10 +0900
+  Processing by DiariesController#callback as HTML
+  Parameters: {"code"=>"850ce7ee2b79b3eae90fb2fe1d9ba260ca87caf6"}
+Completed 500 Internal Server Error in 168ms
+
+OAuth2::Error (OAuth2::Error):
+  app/controllers/diaries_controller.rb:45:in `callback'
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.4ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.7ms)
+
+
+Started GET "/callback?code=d4cbc0a8384322530091bf27741ad305d5a11fbc" for 127.0.0.1 at 2011-08-24 15:34:22 +0900
+  Processing by DiariesController#callback as HTML
+  Parameters: {"code"=>"d4cbc0a8384322530091bf27741ad305d5a11fbc"}
+Completed 500 Internal Server Error in 100ms
+
+OAuth2::Error (OAuth2::Error):
+  app/controllers/diaries_controller.rb:45:in `callback'
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.9ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.3ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.9ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from service at /Users/namai/.rvm/rubies/ruby-1.9.2-p180/lib/ruby/1.9.1/webrick/httpserver.rb:111)
+
+
+Started GET "/callback?code=34a01e0008e719866fe4ab3d94b31bb390b84265" for 127.0.0.1 at 2011-08-24 15:35:33 +0900
+  Processing by DiariesController#callback as HTML
+  Parameters: {"code"=>"34a01e0008e719866fe4ab3d94b31bb390b84265"}
+Completed 500 Internal Server Error in 225ms
+
+OAuth2::Error (OAuth2::Error):
+  app/controllers/diaries_controller.rb:45:in `callback'
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.2ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.6ms)
+
+
+Started GET "/callback?code=34a01e0008e719866fe4ab3d94b31bb390b84265" for 127.0.0.1 at 2011-08-24 15:35:43 +0900
+  Processing by DiariesController#callback as HTML
+  Parameters: {"code"=>"34a01e0008e719866fe4ab3d94b31bb390b84265"}
+Completed 500 Internal Server Error in 104ms
+
+OAuth2::Error (OAuth2::Error):
+  app/controllers/diaries_controller.rb:45:in `callback'
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.3ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.7ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from service at /Users/namai/.rvm/rubies/ruby-1.9.2-p180/lib/ruby/1.9.1/webrick/httpserver.rb:111)
+
+
+Started GET "/callback?code=545c75db42a1ea43ac16f86a37c6808f101ce9ca" for 127.0.0.1 at 2011-08-24 15:35:54 +0900
+  Processing by DiariesController#callback as HTML
+  Parameters: {"code"=>"545c75db42a1ea43ac16f86a37c6808f101ce9ca"}
+Completed 500 Internal Server Error in 172ms
+
+OAuth2::Error (OAuth2::Error):
+  app/controllers/diaries_controller.rb:45:in `callback'
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.1ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.3ms)
+
+
+Started GET "/callback?code=7df78fc4e1c622127f0759d98d2f7e8ff07d8ad1" for 127.0.0.1 at 2011-08-24 15:36:28 +0900
+  Processing by DiariesController#callback as HTML
+  Parameters: {"code"=>"7df78fc4e1c622127f0759d98d2f7e8ff07d8ad1"}
+Completed 500 Internal Server Error in 105ms
+
+NoMethodError (undefined method `people' for #<OAuth2::AccessToken:0x007f8acbac3048>):
+  app/controllers/diaries_controller.rb:46:in `callback'
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.1ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.0ms)
+
+
+Started GET "/callback?code=7df78fc4e1c622127f0759d98d2f7e8ff07d8ad1" for 127.0.0.1 at 2011-08-24 15:36:43 +0900
+  Processing by DiariesController#callback as HTML
+  Parameters: {"code"=>"7df78fc4e1c622127f0759d98d2f7e8ff07d8ad1"}
+Completed 500 Internal Server Error in 436ms
+
+OAuth2::Error (OAuth2::Error):
+  app/controllers/diaries_controller.rb:45:in `callback'
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.2ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.3ms)
+
+
+Started GET "/callback?code=7c5d3a76247791e6753043ce8afcf5affa4f6d30" for 127.0.0.1 at 2011-08-24 15:36:47 +0900
+  Processing by DiariesController#callback as HTML
+  Parameters: {"code"=>"7c5d3a76247791e6753043ce8afcf5affa4f6d30"}
+Completed 500 Internal Server Error in 103ms
+
+NoMethodError (undefined method `people' for #<OAuth2::AccessToken:0x007f8acba8ed20>):
+  app/controllers/diaries_controller.rb:46:in `callback'
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.1ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.9ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from service at /Users/namai/.rvm/rubies/ruby-1.9.2-p180/lib/ruby/1.9.1/webrick/httpserver.rb:111)
+
+
+Started GET "/callback?code=7c5d3a76247791e6753043ce8afcf5affa4f6d30" for 127.0.0.1 at 2011-08-24 15:36:55 +0900
+  Processing by DiariesController#callback as HTML
+  Parameters: {"code"=>"7c5d3a76247791e6753043ce8afcf5affa4f6d30"}
+Completed 500 Internal Server Error in 174ms
+
+OAuth2::Error (OAuth2::Error):
+  app/controllers/diaries_controller.rb:45:in `callback'
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.5ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.8ms)
+
+
+Started GET "/callback?code=432af720dfa6b19a8e1b6ed7e90939bd249f609b" for 127.0.0.1 at 2011-08-24 15:36:58 +0900
+  Processing by DiariesController#callback as HTML
+  Parameters: {"code"=>"432af720dfa6b19a8e1b6ed7e90939bd249f609b"}
+Completed 500 Internal Server Error in 114ms
+
+NoMethodError (undefined method `people' for #<OAuth2::AccessToken:0x007fe222e15210>):
+  app/controllers/diaries_controller.rb:46:in `callback'
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.2ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-24 15:37:57 +0900
+  Processing by DiariesController#index as HTML
+Rendered diaries/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 5ms (Views: 4.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/javascripts/jquery.js" for 127.0.0.1 at 2011-08-24 15:37:57 +0900
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js"):
+  
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/javascripts/jquery_ujs.js" for 127.0.0.1 at 2011-08-24 15:37:57 +0900
+
+ActionController::RoutingError (No route matches "/javascripts/jquery_ujs.js"):
+  
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-24 15:37:57 +0900
+  Processing by DiariesController#index as HTML
+Rendered diaries/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 5ms (Views: 4.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/javascripts/jquery.js" for 127.0.0.1 at 2011-08-24 15:37:58 +0900
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js"):
+  
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/javascripts/jquery_ujs.js" for 127.0.0.1 at 2011-08-24 15:37:58 +0900
+
+ActionController::RoutingError (No route matches "/javascripts/jquery_ujs.js"):
+  
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2011-08-24 15:37:59 +0900
+  Processing by DiariesController#login as HTML
+Redirected to https://mixi.jp/connect_authorize.pl?response_type=code&client_id=8a8a598385989ae796ec&scope=r_profile%20w_profile%20r_profile_status%20r_profile_gender%20r_profile_birthday%20r_profile_blood_type%20r_profile_location%20r_profile_hometown%20r_profile_about_me%20r_profile_occupation%20r_profile_interests%20r_profile_favorite_things%20r_profile_organizations%20r_voice%20w_voice%20w_share%20r_photo%20w_photo%20r_message%20w_message%20w_diary%20r_checkin%20w_checkin%20r_updates
+Completed 302 Found in 1ms
+
+
+Started GET "/callback?code=a615a823b609f6bbc348e6250ba9b67d9248d6e1" for 127.0.0.1 at 2011-08-24 15:38:01 +0900
+  Processing by DiariesController#callback as HTML
+  Parameters: {"code"=>"a615a823b609f6bbc348e6250ba9b67d9248d6e1"}
+Completed 500 Internal Server Error in 207ms
+
+NoMethodError (undefined method `redirect' for #<DiariesController:0x007fe2229a2f70>):
+  app/controllers/diaries_controller.rb:54:in `callback'
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.3ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-24 15:38:32 +0900
+  Processing by DiariesController#index as HTML
+Rendered diaries/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 5ms (Views: 4.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/javascripts/jquery_ujs.js" for 127.0.0.1 at 2011-08-24 15:38:33 +0900
+
+ActionController::RoutingError (No route matches "/javascripts/jquery_ujs.js"):
+  
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/javascripts/jquery.js" for 127.0.0.1 at 2011-08-24 15:38:33 +0900
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js"):
+  
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-24 15:38:33 +0900
+  Processing by DiariesController#index as HTML
+Rendered diaries/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 6ms (Views: 5.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/javascripts/jquery_ujs.js" for 127.0.0.1 at 2011-08-24 15:38:33 +0900
+
+ActionController::RoutingError (No route matches "/javascripts/jquery_ujs.js"):
+  
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/javascripts/jquery.js" for 127.0.0.1 at 2011-08-24 15:38:33 +0900
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js"):
+  
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2011-08-24 15:38:34 +0900
+  Processing by DiariesController#login as HTML
+Redirected to https://mixi.jp/connect_authorize.pl?response_type=code&client_id=8a8a598385989ae796ec&scope=r_profile%20w_profile%20r_profile_status%20r_profile_gender%20r_profile_birthday%20r_profile_blood_type%20r_profile_location%20r_profile_hometown%20r_profile_about_me%20r_profile_occupation%20r_profile_interests%20r_profile_favorite_things%20r_profile_organizations%20r_voice%20w_voice%20w_share%20r_photo%20w_photo%20r_message%20w_message%20w_diary%20r_checkin%20w_checkin%20r_updates
+Completed 302 Found in 1ms
+
+
+Started GET "/callback?code=7525925bbaf323b986abd3a5a7bfe072948b9b5e" for 127.0.0.1 at 2011-08-24 15:38:36 +0900
+  Processing by DiariesController#callback as HTML
+  Parameters: {"code"=>"7525925bbaf323b986abd3a5a7bfe072948b9b5e"}
+Redirected to 
+Completed 500 Internal Server Error in 675ms
+
+NoMethodError (undefined method `index_url' for #<DiariesController:0x007fe222a25b50>):
+  app/controllers/diaries_controller.rb:53:in `callback'
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.3ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-24 15:40:19 +0900
+  Processing by DiariesController#index as HTML
+Rendered diaries/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 5ms (Views: 4.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/javascripts/jquery.js" for 127.0.0.1 at 2011-08-24 15:40:19 +0900
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js"):
+  
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/javascripts/jquery_ujs.js" for 127.0.0.1 at 2011-08-24 15:40:19 +0900
+
+ActionController::RoutingError (No route matches "/javascripts/jquery_ujs.js"):
+  
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-24 15:40:19 +0900
+  Processing by DiariesController#index as HTML
+Rendered diaries/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 5ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/javascripts/jquery.js" for 127.0.0.1 at 2011-08-24 15:40:19 +0900
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js"):
+  
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/javascripts/jquery_ujs.js" for 127.0.0.1 at 2011-08-24 15:40:19 +0900
+
+ActionController::RoutingError (No route matches "/javascripts/jquery_ujs.js"):
+  
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2011-08-24 15:40:20 +0900
+  Processing by DiariesController#login as HTML
+Redirected to https://mixi.jp/connect_authorize.pl?response_type=code&client_id=8a8a598385989ae796ec&scope=r_profile%20w_profile%20r_profile_status%20r_profile_gender%20r_profile_birthday%20r_profile_blood_type%20r_profile_location%20r_profile_hometown%20r_profile_about_me%20r_profile_occupation%20r_profile_interests%20r_profile_favorite_things%20r_profile_organizations%20r_voice%20w_voice%20w_share%20r_photo%20w_photo%20r_message%20w_message%20w_diary%20r_checkin%20w_checkin%20r_updates
+Completed 302 Found in 1ms
+
+
+Started GET "/callback?code=3da8d559c0b69631f2566fe55a43820983312e28" for 127.0.0.1 at 2011-08-24 15:40:22 +0900
+  Processing by DiariesController#callback as HTML
+  Parameters: {"code"=>"3da8d559c0b69631f2566fe55a43820983312e28"}
+Redirected to http://0.0.0.0:3000/
+Completed 302 Found in 197ms
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-24 15:40:23 +0900
+  Processing by DiariesController#index as HTML
+Rendered diaries/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 5ms (Views: 4.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/javascripts/jquery.js" for 127.0.0.1 at 2011-08-24 15:40:23 +0900
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js"):
+  
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.3ms)
+
+
+Started GET "/javascripts/jquery_ujs.js" for 127.0.0.1 at 2011-08-24 15:40:23 +0900
+
+ActionController::RoutingError (No route matches "/javascripts/jquery_ujs.js"):
+  
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-24 15:41:53 +0900
+  Processing by DiariesController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+NoMethodError (undefined method `phots_in_album' for DiariesController:Class):
+  app/controllers/diaries_controller.rb:64:in `index'
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.3ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-24 15:42:05 +0900
+  Processing by DiariesController#index as HTML
+Completed 500 Internal Server Error in 0ms
+
+NoMethodError (undefined method `photos_in_album' for DiariesController:Class):
+  app/controllers/diaries_controller.rb:64:in `index'
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.3ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-24 15:42:13 +0900
+  Processing by DiariesController#index as HTML
+Completed 500 Internal Server Error in 0ms
+
+NoMethodError (undefined method `expired?' for nil:NilClass):
+  app/controllers/diaries_controller.rb:64:in `index'
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.5ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.8ms)
+
+
+Started GET "/callback?code=8c5aaa7400fd198d74c2b43a1a6906832f0e9508" for 127.0.0.1 at 2011-08-24 15:42:17 +0900
+  Processing by DiariesController#callback as HTML
+  Parameters: {"code"=>"8c5aaa7400fd198d74c2b43a1a6906832f0e9508"}
+Redirected to http://0.0.0.0:3000/
+Completed 302 Found in 180ms
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-24 15:42:18 +0900
+  Processing by DiariesController#index as HTML
+Completed 500 Internal Server Error in 0ms
+
+NoMethodError (undefined method `expired?' for nil:NilClass):
+  app/controllers/diaries_controller.rb:64:in `index'
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.3ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-24 15:42:19 +0900
+  Processing by DiariesController#index as HTML
+Completed 500 Internal Server Error in 0ms
+
+NoMethodError (undefined method `expired?' for nil:NilClass):
+  app/controllers/diaries_controller.rb:64:in `index'
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.2ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-24 15:42:20 +0900
+  Processing by DiariesController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+NoMethodError (undefined method `expired?' for nil:NilClass):
+  app/controllers/diaries_controller.rb:64:in `index'
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.3ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-24 15:42:43 +0900
+  Processing by DiariesController#index as HTML
+Completed 500 Internal Server Error in 2ms
+
+NoMethodError (undefined method `expired?' for nil:NilClass):
+  app/controllers/diaries_controller.rb:65:in `index'
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.1ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.1ms)
