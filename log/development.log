@@ -1,0 +1,280 @@
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from service at /Users/namai/.rvm/rubies/ruby-1.9.2-p180/lib/ruby/1.9.1/webrick/httpserver.rb:111)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from service at /Users/namai/.rvm/rubies/ruby-1.9.2-p180/lib/ruby/1.9.1/webrick/httpserver.rb:111)
+
+
+Started GET "/diary" for 127.0.0.1 at 2011-08-24 13:33:21 +0900
+
+ActionController::RoutingError (No route matches "/diary"):
+  
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (16.3ms)
+
+
+Started GET "/diar" for 127.0.0.1 at 2011-08-24 13:33:24 +0900
+
+ActionController::RoutingError (No route matches "/diar"):
+  
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-24 13:33:24 +0900
+
+ActionController::RoutingError (No route matches "/"):
+  
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from service at /Users/namai/.rvm/rubies/ruby-1.9.2-p180/lib/ruby/1.9.1/webrick/httpserver.rb:111)
+
+
+Started GET "/d" for 127.0.0.1 at 2011-08-24 13:35:41 +0900
+
+ActionController::RoutingError (No route matches "/d"):
+  
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/diary" for 127.0.0.1 at 2011-08-24 13:35:41 +0900
+
+ActionController::RoutingError (No route matches "/diary"):
+  
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/diary" for 127.0.0.1 at 2011-08-24 13:35:41 +0900
+
+ActionController::RoutingError (No route matches "/diary"):
+  
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/diary/" for 127.0.0.1 at 2011-08-24 13:35:43 +0900
+
+ActionController::RoutingError (No route matches "/diary"):
+  
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/diary/new" for 127.0.0.1 at 2011-08-24 13:35:46 +0900
+
+ActionController::RoutingError (No route matches "/diary/new"):
+  
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/diary/ne" for 127.0.0.1 at 2011-08-24 13:35:47 +0900
+
+ActionController::RoutingError (No route matches "/diary/ne"):
+  
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/diary/nw" for 127.0.0.1 at 2011-08-24 13:35:48 +0900
+
+ActionController::RoutingError (No route matches "/diary/nw"):
+  
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/diary/new" for 127.0.0.1 at 2011-08-24 13:35:48 +0900
+
+ActionController::RoutingError (No route matches "/diary/new"):
+  
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/diary/nwe" for 127.0.0.1 at 2011-08-24 13:35:51 +0900
+
+ActionController::RoutingError (No route matches "/diary/nwe"):
+  
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/diary/ne" for 127.0.0.1 at 2011-08-24 13:35:52 +0900
+
+ActionController::RoutingError (No route matches "/diary/ne"):
+  
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/diary" for 127.0.0.1 at 2011-08-24 13:35:52 +0900
+
+ActionController::RoutingError (No route matches "/diary"):
+  
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from service at /Users/namai/.rvm/rubies/ruby-1.9.2-p180/lib/ruby/1.9.1/webrick/httpserver.rb:111)
+
+
+Started GET "/diary" for 127.0.0.1 at 2011-08-24 13:36:14 +0900
+
+ActionController::RoutingError (No route matches "/diary"):
+  
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/diar" for 127.0.0.1 at 2011-08-24 13:36:17 +0900
+
+ActionController::RoutingError (No route matches "/diar"):
+  
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-24 13:36:17 +0900
+
+ActionController::RoutingError (No route matches "/"):
+  
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/d" for 127.0.0.1 at 2011-08-24 13:36:20 +0900
+
+ActionController::RoutingError (No route matches "/d"):
+  
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/diar" for 127.0.0.1 at 2011-08-24 13:36:20 +0900
+
+ActionController::RoutingError (No route matches "/diar"):
+  
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/diary" for 127.0.0.1 at 2011-08-24 13:36:20 +0900
+
+ActionController::RoutingError (No route matches "/diary"):
+  
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/diar" for 127.0.0.1 at 2011-08-24 13:36:35 +0900
+
+ActionController::RoutingError (No route matches "/diar"):
+  
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/diaries" for 127.0.0.1 at 2011-08-24 13:36:36 +0900
+  Processing by DiariesController#index as HTML
+  [1m[36mDiary Load (0.3ms)[0m  [1mSELECT "diaries".* FROM "diaries"[0m
+SQLite3::SQLException: no such table: diaries: SELECT "diaries".* FROM "diaries"
+Completed 500 Internal Server Error in 50ms
+
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such table: diaries: SELECT "diaries".* FROM "diaries"):
+  app/controllers/diaries_controller.rb:5:in `index'
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.8ms)
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.7ms)
+  [1m[36mSQL (0.3ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m  select sqlite_version(*)
+  [1m[36mSQL (2.0ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35mSQL (0.0ms)[0m  PRAGMA index_list("schema_migrations")
+  [1m[36mSQL (2.0ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mSQL (0.1ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.1ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations"
+Migrating to CreateDiaries (20110824043031)
+  [1m[36mSQL (0.4ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+Migrating to CreateDiaries (20110824043031)
+  [1m[35mSQL (0.0ms)[0m  select sqlite_version(*)
+  [1m[36mSQL (0.4ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+Migrating to CreateDiaries (20110824043031)
+  [1m[35mSQL (0.0ms)[0m  select sqlite_version(*)
+  [1m[36mSQL (0.4ms)[0m  [1mCREATE TABLE "diaries" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "user_id" integer, "title" text, "body" text, "photo_url_1" text, "photo_url_2" text, "photo_url_3" text, "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20110824043031')
+  [1m[36mSQL (0.3ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35mSQL (0.1ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+  [1m[35mSQL (0.1ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.0ms)[0m  [1mPRAGMA index_list("diaries")[0m
+
+
+Started GET "/diaries" for 127.0.0.1 at 2011-08-24 13:39:00 +0900
+  Processing by DiariesController#index as HTML
+  [1m[35mDiary Load (0.5ms)[0m  SELECT "diaries".* FROM "diaries"
+Rendered diaries/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 11ms (Views: 7.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/javascripts/jquery.js" for 127.0.0.1 at 2011-08-24 13:39:00 +0900
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js"):
+  
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/javascripts/jquery_ujs.js" for 127.0.0.1 at 2011-08-24 13:39:00 +0900
+
+ActionController::RoutingError (No route matches "/javascripts/jquery_ujs.js"):
+  
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (18.4ms)
+
+
+Started GET "/diaries/new" for 127.0.0.1 at 2011-08-24 13:39:11 +0900
+  Processing by DiariesController#new as HTML
+Rendered diaries/_form.html.erb (112.0ms)
+Rendered diaries/new.html.erb within layouts/application (114.7ms)
+Completed 200 OK in 123ms (Views: 117.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/javascripts/jquery_ujs.js" for 127.0.0.1 at 2011-08-24 13:39:11 +0900
+
+ActionController::RoutingError (No route matches "/javascripts/jquery_ujs.js"):
+  
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/javascripts/jquery.js" for 127.0.0.1 at 2011-08-24 13:39:11 +0900
+
+ActionController::RoutingError (No route matches "/javascripts/jquery.js"):
+  
+
+Rendered /Users/namai/.rvm/gems/ruby-1.9.2-p180@rails31/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)

@@ -1,7 +1,10 @@
 # Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
 
 one:
+<<<<<<< HEAD
   screen_name: MyString
+=======
+>>>>>>> 2dbeafdf658769ebdba7832beae0a625fed8a013
   user_id: 1
   title: 
   body: 
@@ -10,7 +13,10 @@ one:
   photo_url_3: MyText
 
 two:
+<<<<<<< HEAD
   screen_name: MyString
+=======
+>>>>>>> 2dbeafdf658769ebdba7832beae0a625fed8a013
   user_id: 1
   title: 
   body: 
