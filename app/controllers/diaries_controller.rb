@@ -1,9 +1,69 @@
+require 'pp'
 class DiariesController < ApplicationController
+  def self.rixi
+    scope = { 
+      :r_profile => true,
+      :w_profile => true,
+      :r_profile_status => true,
+      :r_profile_gender => true,
+      :r_profile_birthday => true,
+      :r_profile_blood_type => true,
+      :r_profile_location => true,
+      :r_profile_hometown => true,
+      :r_profile_about_me => true,
+      :r_profile_occupation => true,
+      :r_profile_interests => true,
+      :r_profile_favorite_things => true,
+      :r_profile_organizations => true,
+      :r_voice => true,
+      :w_voice => true,
+      :w_share => true,
+      :r_photo => true,
+      :w_photo  => true,
+      :r_message => true,
+      :w_message => true,
+      :w_diary => true,
+      :r_checkin => true,
+      :w_checkin => true, 
+      :r_updates => true
+    }
+    
+    return @@mixi ||= Rixi.new(
+                               :consumer_key => "8a8a598385989ae796ec",
+                               :consumer_secret => "6bb150b0961620ea015d01d7020367e959008e7f",
+                               :redirect_uri => 'http://0.0.0.0:3000/callback',
+                               :scope => scope
+                              )
+  end
+
+  def login
+    redirect_to DiariesController.rixi.authorized_uri
+  end
+
+  def callback
+    session[:login] = true
+    @@mixi = DiariesController.rixi.get_token(params[:code])
+    pp response = DiariesController.rixi.people "@me", "@self"
+
+    session[:screen_name]  = response["entry"]["diplayName"]
+    session[:uid]          = response["entry"]["id"]    
+    session[:thumbnailUrl] = response["entry"]["thumbnailUrl"]    
+    
+    redirect_to root_path
+  end
+
+  def logout
+    reset_session
+    redirect_to root_path
+  end
+
   # GET /diaries
   # GET /diaries.xml
   def index
-    @diaries = Diary.all
-
+    pp DiariesController.rixi 
+    @photos = DiariesController.rixi.photos_in_album "@me", "@default"    
+    pp @photos
+    # @diaries = Diary.all
     respond_to do |format|
       format.html # index.html.erb
       format.xml  { render :xml => @diaries }
