@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!-- saved from url=(0069)http://www.atmarkit.co.jp/fwcr/rensai/ajaxrecipe05/filer/sample3.html -->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<script type="text/javascript" src="./sample3_files/jquery-1.2.3.min.js"></script>
+<script type="text/javascript" src="./sample3_files/jquery.dimensions.js"></script>
+<script type="text/javascript" src="./sample3_files/ui.mouse.js"></script>
+<script type="text/javascript" src="./sample3_files/ui.draggable.js"></script>
+<script type="text/javascript" src="./sample3_files/ui.draggable.ext.js"></script>
+<script type="text/javascript" src="./sample3_files/ui.droppable.js"></script>
+<script type="text/javascript" src="./sample3_files/ui.droppable.ext.js"></script>
+<style type="text/css">
+#target {
+  border:  solid gray 1px;
+  padding: 5px;
+  width:   100px;
+  text-align: center;
+  background-color: lightblue;
+}
+#goal {
+  margin-top: 50px;
+  border:  solid black 1px;
+  padding: 10px;
+  text-align: center;
+  width:   150px;
+  background-color: lightgreen;
+}
+</style>
+</head>
+<body>
+<div id="target" class="ui-draggable" style="position: relative; ">ドラッグ可能</div>
+<div id="goal" class="ui-droppable">ドロップ可能</div>
+<script type="text/javascript">
+$('#target').draggable();
+$('#goal').droppable(
+  {accept: '#target',
+   drop:   function(e, ui) {
+     alert('ドロップされました');
+   }
+  });
+</script>
+
+</body></html>

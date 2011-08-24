@@ -1,0 +1,32 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content-"text/html;charset=UTF-8">
+
+<title>Drag&Drop sample</title>
+<link rel="stylesheet" type="text/css" href="design.css">
+
+<script type="text/javascript" src="jquery-1.2.3.min.js"></script>
+<script type="text/javascript" src="jquery.dimensions.js"></script>
+<script type="text/javascript" src="ui.mouse.js"></script>
+<script type="text/javascript" src="ui.draggable.js"></script>
+<script type="text/javascript" src="ui.draggable.ext.js"></script>
+<script type="text/javascript" src="ui.droppable.js"></script>
+<script type="text/javascript" src="ui.droppable.ext.js"></script>
+
+</head>
+<body>
+
+<div id='target'>ドラッグ可能</div>
+<div id='goal'>ドロップ可能</div>
+<script type="text/javascript">
+    $('#target').draggable();
+    $('#goal').droppable(
+        {accept: '#target',
+         drop: function(e, ui) {
+            alert('ドロップされました');
+        }
+    );
+</script>
+
+</body>
+</html>
