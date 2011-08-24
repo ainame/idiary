@@ -16,6 +16,28 @@ Image3:<INPUT type="text" id="photo3" size="50"><br>
 </div>
 <input type="submit" value="送信" /></br>
 </form>
+
+<script type="text/javascript">
+var image_num=0;
+  $('.target').each(function(){
+    $(this).draggable(
+    );
+  });
+
+$('#drop').droppable(
+  {accept: '.target',
+   drop:   function(e, ui) {
+    if(image_num<3){
+     image_num++;
+     document.getElementById("photo" + image_num).value=e.target.src;
+    } else {
+     alert('４枚以上は添付できません');
+    }
+
+   }
+  });
+</script> 
+
 <% else %>
   <a href="/login">ログイン</a>
 <% end %>
