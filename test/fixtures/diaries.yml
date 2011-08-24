@@ -1,0 +1,19 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  screen_name: MyString
+  user_id: 1
+  title: 
+  body: 
+  photo_url_1: MyText
+  photo_url_2: MyText
+  photo_url_3: MyText
+
+two:
+  screen_name: MyString
+  user_id: 1
+  title: 
+  body: 
+  photo_url_1: MyText
+  photo_url_2: MyText
+  photo_url_3: MyText

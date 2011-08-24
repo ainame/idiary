@@ -1,0 +1,40 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Screen name:</b>
+  <%= @diary.screen_name %>
+</p>
+
+<p>
+  <b>User:</b>
+  <%= @diary.user_id %>
+</p>
+
+<p>
+  <b>Title:</b>
+  <%= @diary.title %>
+</p>
+
+<p>
+  <b>Body:</b>
+  <%= @diary.body %>
+</p>
+
+<p>
+  <b>Photo url 1:</b>
+  <%= @diary.photo_url_1 %>
+</p>
+
+<p>
+  <b>Photo url 2:</b>
+  <%= @diary.photo_url_2 %>
+</p>
+
+<p>
+  <b>Photo url 3:</b>
+  <%= @diary.photo_url_3 %>
+</p>
+
+
+<%= link_to 'Edit', edit_diary_path(@diary) %> |
+<%= link_to 'Back', diaries_path %>
