@@ -1,0 +1,13 @@
+<h1>Mixi Photo</h1>
+
+<table>
+<% @photos.each do |photo| %>
+<tr>
+<td><%= photo["created"]%></td>
+<td><img src="<%= photo["thumbnailUrl"]%>" alt="＼(^o^)／" id="<%= photo["id"]%>"/> </td>
+<td><%= photo["title"]%></td>
+</tr>
+<% end %>
+</table>
+
+<br />
