@@ -9,6 +9,6 @@ class TwitterController < ActionController::Base
       config.oauth_token = '96814807-u3S4EgNlURQrUt8o2kjYQtTKp2SqzXgIa0zuszqgv'
       config.oauth_token_secret = 'MJhdy72I2qj7gOErc5lXhaGfP6uuZ70uPConlGcM'
     end
-    line=Twitter.user_timeline("ainame")
+    @line=Twitter.user_timeline("ainame")
   end
 end
