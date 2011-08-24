@@ -1,0 +1,41 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+<link rel="stylesheet" type="text/css" href="design.css">
+<meta http-equiv='Content-Type' content='text/html; charset=UTF-8' />
+<script type="text/javascript" src="jquery-1.2.3.min.js"></script>
+<script type="text/javascript" src="jquery.dimensions.js"></script>
+<script type="text/javascript" src="ui.mouse.js"></script>
+<script type="text/javascript" src="ui.draggable.js"></script>
+<script type="text/javascript" src="ui.draggable.ext.js"></script>
+<script type="text/javascript" src="ui.droppable.js"></script>
+<script type="text/javascript" src="ui.droppable.ext.js"></script>
+
+</head>
+<body>
+<div id='drag-parent'>
+    <img src="image.jpg" class="target" width="100" height="100">
+    <img src="image.jpg" class="target" width="100" height="100">
+    <img src="image.jpg" class="target" width="100" height="100">
+</div>
+
+<div id='drop'>ドロップ可能</div>
+<script type="text/javascript">
+
+  $('.target').each(function(){
+    $(this).draggable();
+  });
+
+$('#target').draggable();
+$('#drop').droppable(
+  {accept: '.target',
+   drop:   function(e, ui) {
+     alert('ドロップされました');
+   }
+  });
+</script>
+</body>
+</html>

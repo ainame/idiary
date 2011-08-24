@@ -1,0 +1,57 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+<link rel="stylesheet" type="text/css" href="design.css">
+<meta http-equiv='Content-Type' content='text/html; charset=UTF-8'/>
+<script type="text/javascript" src="jquery-1.2.3.min.js"></script>
+<script type="text/javascript" src="jquery.dimensions.js"></script>
+<script type="text/javascript" src="ui.mouse.js"></script>
+<script type="text/javascript" src="ui.draggable.js"></script>
+<script type="text/javascript" src="ui.draggable.ext.js"></script>
+<script type="text/javascript" src="ui.droppable.js"></script>
+<script type="text/javascript" src="ui.droppable.ext.js"></script>
+</head>
+<body>
+<div id='drag'>
+    <img src="image.jpg" class="target" width="100">
+    <img src="akiharada.jpg" class="target" width="100">
+    <img src="http://mixi.co.jp/wp-content/uploads/2009/12/mixi_tate.gif" class="target" width="100"><br>
+    <img src="http://kyamon.com/wp-content/uploads/2011/07/google_logo.jpg" class="target" width="100">
+</div>
+
+<hr>
+<br>
+<br>
+
+<div id='drop'>
+Image1:<INPUT type="text" id="1" size="50"><br>
+Image2:<INPUT type="text" id="2" size="50"><br>
+Image3:<INPUT type="text" id="3" size="50"><br>
+
+
+</div>
+<script type="text/javascript">
+var image_num=0;
+  $('.target').each(function(){
+    $(this).draggable(
+    );
+  });
+
+$('#drop').droppable(
+  {accept: '.target',
+   drop:   function(e, ui) {
+    if(image_num<3){
+     image_num++;
+     document.getElementById(image_num).value=e.target.src;
+    } else {
+     alert('４枚以上は添付できません');
+    }
+
+   }
+  });
+</script>
+</body>
+</html>
